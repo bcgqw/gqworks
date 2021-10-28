@@ -2,12 +2,11 @@ pipeline{
     agent any
     stages{
         stage('Build'){
-            echo 'Building...'
-            checkout GitSCM
-            when{
-                branch 'dev'
+            steps{
+                echo 'Building...'
+                checkout GitSCM
+            
             }
-
         }
 
         stage('Test'){
@@ -17,9 +16,8 @@ pipeline{
         }
 
         stage('Deploy'){
-            echo 'Deploying...'
-            when{
-                branch 'master'
+            steps{
+                echo 'Deploying...'
             }
         }
     }
