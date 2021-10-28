@@ -5,9 +5,6 @@ pipeline{
 			steps{
 				echo 'Building...'
 				checkout scm
-				when{
-					branch 'dev'
-				}
 			}
 		}
 		stage('Test'){
@@ -18,10 +15,6 @@ pipeline{
 		stage('Deploy'){
 			steps{
 				echo 'Deploying...'
-				when{
-					branch 'master'
-					}
-				}
 		}
 	post{
 		success{
