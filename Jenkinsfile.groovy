@@ -6,7 +6,7 @@ pipeline{
 				echo 'Building...'
 				checkout scm
 				when{
-					branch 'dev
+					branch 'dev'
 				}
 			}
 		}
