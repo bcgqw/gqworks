@@ -23,16 +23,4 @@ pipeline{
             }
         }
     }
-
-    post{
-        succes{
-            echo 'Success...'
-        }
-        failure{
-            echo 'Failure...'
-        }
-        always{
-            echo 'Always...'
-        }
-    }
 }
