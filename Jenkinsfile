@@ -3,9 +3,7 @@ pipeline{
     stages{
         stage('Build'){
             steps{
-                echo 'Building...'
-                checkout GitSCM
-            
+                echo 'Building...'          
             }
         }
 
