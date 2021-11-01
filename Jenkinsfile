@@ -15,7 +15,11 @@ pipeline{
 
         stage('Deploy'){
             steps{
+                
                 echo 'Deploying...'
+                echo 'Activate Theme'
+                sh '''composer update;
+                wp theme update --all;'''
             }
         }
     }
