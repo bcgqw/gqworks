@@ -18,6 +18,8 @@ pipeline{
                 
                 echo 'Deploying...'
                 echo 'Activate Theme'
+		sh '''composer update;
+		wp theme update --all;'''
             }
         }
     }
