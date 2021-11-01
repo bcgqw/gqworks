@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7dc18cabd284a3e2c289222cc37c4e84",
+    "content-hash": "0a879f9a3e523448c129cea835370679",
     "packages": [
         {
             "name": "composer/installers",
@@ -2261,22 +2261,22 @@
             "homepage": "https://wordpress.org/plugins/akismet/"
         },
         {
-            "name": "wpackagist-theme/twentytwenty",
-            "version": "1.8",
+            "name": "wpackagist-theme/oceanwp",
+            "version": "3.0.7",
             "source": {
                 "type": "svn",
-                "url": "https://themes.svn.wordpress.org/twentytwenty/",
-                "reference": "1.8"
+                "url": "https://themes.svn.wordpress.org/oceanwp/",
+                "reference": "3.0.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/twentytwenty.1.8.zip"
+                "url": "https://downloads.wordpress.org/theme/oceanwp.3.0.7.zip"
             },
             "require": {
                 "composer/installers": "~1.0 || ~2.0"
             },
             "type": "wordpress-theme",
-            "homepage": "https://wordpress.org/themes/twentytwenty/"
+            "homepage": "https://wordpress.org/themes/oceanwp/"
         }
     ],
     "packages-dev": [],

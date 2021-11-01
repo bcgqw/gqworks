@@ -2363,25 +2363,25 @@
             "install-path": "../../wp-content/plugins/akismet"
         },
         {
-            "name": "wpackagist-theme/twentytwenty",
-            "version": "1.8",
-            "version_normalized": "1.8.0.0",
+            "name": "wpackagist-theme/oceanwp",
+            "version": "3.0.7",
+            "version_normalized": "3.0.7.0",
             "source": {
                 "type": "svn",
-                "url": "https://themes.svn.wordpress.org/twentytwenty/",
-                "reference": "1.8"
+                "url": "https://themes.svn.wordpress.org/oceanwp/",
+                "reference": "3.0.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/twentytwenty.1.8.zip"
+                "url": "https://downloads.wordpress.org/theme/oceanwp.3.0.7.zip"
             },
             "require": {
                 "composer/installers": "~1.0 || ~2.0"
             },
             "type": "wordpress-theme",
             "installation-source": "dist",
-            "homepage": "https://wordpress.org/themes/twentytwenty/",
-            "install-path": "../../wp-content/themes/twentytwenty"
+            "homepage": "https://wordpress.org/themes/oceanwp/",
+            "install-path": "../../wp-content/themes/oceanwp"
         }
     ],
     "dev": true,
