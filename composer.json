@@ -7,7 +7,7 @@
     ],
     "require": {
         "wpackagist-plugin/akismet": "*",
-        "wpackagist-theme/oceanwp": "*",
+        "wpackagist-theme/teluro": "*",
 	"phpunit/phpunit": "*"
     }
 }

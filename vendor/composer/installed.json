@@ -696,24 +696,24 @@
         },
         {
             "name": "phpunit/php-code-coverage",
-            "version": "9.2.7",
-            "version_normalized": "9.2.7.0",
+            "version": "9.2.8",
+            "version_normalized": "9.2.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "d4c798ed8d51506800b441f7a13ecb0f76f12218"
+                "reference": "cf04e88a2e3c56fc1a65488afd493325b4c1bc3e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/d4c798ed8d51506800b441f7a13ecb0f76f12218",
-                "reference": "d4c798ed8d51506800b441f7a13ecb0f76f12218",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/cf04e88a2e3c56fc1a65488afd493325b4c1bc3e",
+                "reference": "cf04e88a2e3c56fc1a65488afd493325b4c1bc3e",
                 "shasum": ""
             },
             "require": {
                 "ext-dom": "*",
                 "ext-libxml": "*",
                 "ext-xmlwriter": "*",
-                "nikic/php-parser": "^4.12.0",
+                "nikic/php-parser": "^4.13.0",
                 "php": ">=7.3",
                 "phpunit/php-file-iterator": "^3.0.3",
                 "phpunit/php-text-template": "^2.0.2",
@@ -731,7 +731,7 @@
                 "ext-pcov": "*",
                 "ext-xdebug": "*"
             },
-            "time": "2021-09-17T05:39:03+00:00",
+            "time": "2021-10-30T08:01:38+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -764,7 +764,7 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianbergmann/php-code-coverage/issues",
-                "source": "https://github.com/sebastianbergmann/php-code-coverage/tree/9.2.7"
+                "source": "https://github.com/sebastianbergmann/php-code-coverage/tree/9.2.8"
             },
             "funding": [
                 {
@@ -2363,25 +2363,25 @@
             "install-path": "../../wp-content/plugins/akismet"
         },
         {
-            "name": "wpackagist-theme/oceanwp",
-            "version": "3.0.7",
-            "version_normalized": "3.0.7.0",
+            "name": "wpackagist-theme/teluro",
+            "version": "1.0.24",
+            "version_normalized": "1.0.24.0",
             "source": {
                 "type": "svn",
-                "url": "https://themes.svn.wordpress.org/oceanwp/",
-                "reference": "3.0.7"
+                "url": "https://themes.svn.wordpress.org/teluro/",
+                "reference": "1.0.24"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/oceanwp.3.0.7.zip"
+                "url": "https://downloads.wordpress.org/theme/teluro.1.0.24.zip"
             },
             "require": {
                 "composer/installers": "~1.0 || ~2.0"
             },
             "type": "wordpress-theme",
             "installation-source": "dist",
-            "homepage": "https://wordpress.org/themes/oceanwp/",
-            "install-path": "../../wp-content/themes/oceanwp"
+            "homepage": "https://wordpress.org/themes/teluro/",
+            "install-path": "../../wp-content/themes/teluro"
         }
     ],
     "dev": true,
