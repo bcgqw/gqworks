@@ -15,7 +15,9 @@ pipeline{
 
         stage('Deploy'){
             steps{
+                
                 echo 'Deploying...'
+                echo 'Activate Theme'
             }
         }
     }
