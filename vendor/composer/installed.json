@@ -6713,25 +6713,25 @@
             "install-path": "../../wp-content/plugins/akismet"
         },
         {
-            "name": "wpackagist-theme/teluro",
-            "version": "1.0.24",
-            "version_normalized": "1.0.24.0",
+            "name": "wpackagist-theme/neve",
+            "version": "3.0.10",
+            "version_normalized": "3.0.10.0",
             "source": {
                 "type": "svn",
-                "url": "https://themes.svn.wordpress.org/teluro/",
-                "reference": "1.0.24"
+                "url": "https://themes.svn.wordpress.org/neve/",
+                "reference": "3.0.10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/teluro.1.0.24.zip"
+                "url": "https://downloads.wordpress.org/theme/neve.3.0.10.zip"
             },
             "require": {
                 "composer/installers": "~1.0 || ~2.0"
             },
             "type": "wordpress-theme",
             "installation-source": "dist",
-            "homepage": "https://wordpress.org/themes/teluro/",
-            "install-path": "../../wp-content/themes/teluro"
+            "homepage": "https://wordpress.org/themes/neve/",
+            "install-path": "../../wp-content/themes/neve"
         }
     ],
     "dev": true,

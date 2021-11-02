@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6546e605efed14b45badb84f8990bd6f",
+    "content-hash": "7d857a1d30060d27c2eb44cd662c90e0",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -6431,22 +6431,22 @@
             "homepage": "https://wordpress.org/plugins/akismet/"
         },
         {
-            "name": "wpackagist-theme/teluro",
-            "version": "1.0.24",
+            "name": "wpackagist-theme/neve",
+            "version": "3.0.10",
             "source": {
                 "type": "svn",
-                "url": "https://themes.svn.wordpress.org/teluro/",
-                "reference": "1.0.24"
+                "url": "https://themes.svn.wordpress.org/neve/",
+                "reference": "3.0.10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/teluro.1.0.24.zip"
+                "url": "https://downloads.wordpress.org/theme/neve.3.0.10.zip"
             },
             "require": {
                 "composer/installers": "~1.0 || ~2.0"
             },
             "type": "wordpress-theme",
-            "homepage": "https://wordpress.org/themes/teluro/"
+            "homepage": "https://wordpress.org/themes/neve/"
         }
     ],
     "packages-dev": [],
