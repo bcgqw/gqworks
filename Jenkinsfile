@@ -17,7 +17,7 @@ pipeline{
             steps{
                 
                 echo 'Deploying...'
-                echo 'Activate Theme'
+                echo 'Merge branch test'
 		
             }
         }
