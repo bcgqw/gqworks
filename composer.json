@@ -1,0 +1,14 @@
+{
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://wpackagist.org"
+        }
+    ],
+    "require": {
+        "wpackagist-plugin/akismet": "*",
+        "wpackagist-theme/neve": "*",
+	"phpunit/phpunit": "*",
+	"wp-cli/wp-cli-bundle": "*"
+    }
+}
