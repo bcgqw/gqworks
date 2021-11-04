@@ -3,5 +3,9 @@
 wp-config.php
 .htaccess
 
-#Ignore the wp-content directory
-/wp-content
+#Don't ignore themes dir, buyt ignore everything inside
+!/wp-content
+/wp-content/themes/*
+
+#Don't ignore telurochild theme
+!/wp-content/themes/telurochild
